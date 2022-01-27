@@ -1,6 +1,11 @@
 {
   "name": "rpc-vite-ts",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Mohamed Yahye El Joud",
+    "email": "yahyajoud@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
