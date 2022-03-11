@@ -14,18 +14,17 @@ const GameButton: React.FC<GameButtonProps> = ({
   notClickable,
   hidden,
 }) => {
-  const btnSm: string = "w-32 h-32 border-[14px] p-[14px] after:-m-[14px]";
-  const btnMd: string = "w-44 h-44 border-[20px] p-[20px] after:-m-[20px]";
-  const btnLg: string =
-    "w-[275px] h-[275px] border-[32px] p-[32px] after:-m-[32px]";
+  const btnSm = "w-32 h-32 border-[14px] p-[14px] after:-m-[14px]";
+  const btnMd = "w-44 h-44 border-[20px] p-[20px] after:-m-[20px]";
+  const btnLg = "w-[275px] h-[275px] border-[32px] p-[32px] after:-m-[32px]";
 
-  const btnBlue: string = "after:from-blue-400 after:to-blue-500";
-  const btnRed: string = "after:from-red-400 after:to-red-500";
-  const btnYellow: string = "after:from-yellow-400 after:to-yellow-500";
+  const btnBlue = "after:from-blue-400 after:to-blue-500";
+  const btnRed = "after:from-red-400 after:to-red-500";
+  const btnYellow = "after:from-yellow-400 after:to-yellow-500";
 
-  const btnSize: string = size === "sm" ? btnSm : size === "lg" ? btnLg : btnMd;
+  const btnSize = size === "sm" ? btnSm : size === "lg" ? btnLg : btnMd;
 
-  const btnColor: string =
+  const btnColor =
     color === "blue" ? btnBlue : color === "yellow" ? btnYellow : btnRed;
 
   return (
